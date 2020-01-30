@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace InterfaceConcreteClass
 {
-    public  abstract class AbstractPolygon
+    public abstract class AbstractPolygon
     {
         public int SidesOfPolygon { get; set; }
         public int LengthOfPolygon { get; set; }
@@ -22,6 +22,6 @@ namespace InterfaceConcreteClass
             return LengthOfPolygon * SidesOfPolygon;
         }
         public abstract double GetArea();
-        
+
     }
 }
