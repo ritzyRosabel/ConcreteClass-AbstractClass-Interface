@@ -8,6 +8,7 @@ namespace InterfaceConcreteClass
 {
     class Program
     {
+        //this project explains to me the difference between Concrete class, Abstract Class and Interfaces
         static void Main(string[] args)
         {
             SquareClass square = new SquareClass(4);
