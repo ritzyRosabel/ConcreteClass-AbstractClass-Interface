@@ -10,10 +10,10 @@ namespace InterfaceConcreteClass
     {
         static void Main(string[] args)
         {
-            SquareClass square = new SquareClass(5);
+            SquareClass square = new SquareClass(4);
             Display("Square", square);
 
-            TriangleClass triangle = new TriangleClass(3);
+            EquilateralTriangleClass triangle = new EquilateralTriangleClass(3);
              Display("Triangle", triangle);
 
             OctagonClass octagon = new OctagonClass(8, 7);

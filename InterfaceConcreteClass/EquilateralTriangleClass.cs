@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace InterfaceConcreteClass
 {
-    public class TriangleClass : AbstractPolygon
+    public class EquilateralTriangleClass : AbstractPolygon
     {
         public int Length { get; set; }
-        public TriangleClass(int length) : base(3, length)
+        public EquilateralTriangleClass(int length) : base(3, length)
         {
             Length = length;
         }

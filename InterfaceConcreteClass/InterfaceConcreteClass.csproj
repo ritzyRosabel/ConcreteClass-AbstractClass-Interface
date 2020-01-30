@@ -50,7 +50,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SquareClass.cs" />
-    <Compile Include="TriangleClass.cs" />
+    <Compile Include="EquilateralTriangleClass.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
