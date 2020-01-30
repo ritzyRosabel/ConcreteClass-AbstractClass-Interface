@@ -16,9 +16,9 @@ namespace InterfaceConcreteClass
             TriangleClass triangle = new TriangleClass(3);
              Display("Triangle", triangle);
 
-            //OctagonClass octagon = new OctagonClass(8 , 7);
-            //Display("Octagon", octagon);
-            //Console.ReadLine();
+            OctagonClass octagon = new OctagonClass(8, 7);
+            Display("Octagon", octagon);
+            Console.ReadLine();
 
         }
 
