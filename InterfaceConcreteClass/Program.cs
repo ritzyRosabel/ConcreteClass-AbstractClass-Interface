@@ -9,6 +9,8 @@ namespace InterfaceConcreteClass
     class Program
     {
         //this project explains to me the difference between Concrete class, Abstract Class and Interfaces
+        //  If this code works, then it was writen by Rosabel Olugbenga. If it doesn't, then i can only say one thing  "IT IS WHAT IT IS".
+
         static void Main(string[] args)
         {
             SquareClass square = new SquareClass(4);
