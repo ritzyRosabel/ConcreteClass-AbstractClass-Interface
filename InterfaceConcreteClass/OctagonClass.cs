@@ -28,5 +28,9 @@ namespace InterfaceConcreteClass
         {
             return  2 * (1 + Math.Sqrt(2)) *( LengthOfPolygon * LengthOfPolygon);
         }
+        public void Search(string text)
+        {
+            Console.WriteLine("Searching in file");
+        }
     }
 }

@@ -19,12 +19,13 @@ namespace InterfaceConcreteClass
             EquilateralTriangleClass triangle = new EquilateralTriangleClass(3);
              Display("Triangle", triangle);
 
-            OctagonClass octagon = new OctagonClass(8, 7);
+            OctagonClass octagon = new OctagonClass(8, 7);// this object can access all members of the class and implicitly implemented members of interface
             Display("Octagon", octagon);
             
-            IPolygon octagon1 = new OctagonClass(8, 7);
+            IPolygon octagon1  = new OctagonClass(8, 7);// this object can only access implicitly and explicitly implemented members of the interface
             Display("Octagon", octagon1);
             Console.ReadLine();
+            octagon.
 
         }
 
