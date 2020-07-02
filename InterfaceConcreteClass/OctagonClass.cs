@@ -23,7 +23,7 @@ namespace InterfaceConcreteClass
         {
             return 8 * LengthOfPolygon ;
         }
-        public double IPolygon.GetArea()
+        double IPolygon.GetArea()
         {
             return  2 * (1 + Math.Sqrt(2)) *( LengthOfPolygon * LengthOfPolygon);
         }
