@@ -21,6 +21,9 @@ namespace InterfaceConcreteClass
 
             OctagonClass octagon = new OctagonClass(8, 7);
             Display("Octagon", octagon);
+            
+            IPolygon octagon1 = new OctagonClass(8, 7);
+            Display("Octagon", octagon1);
             Console.ReadLine();
 
         }
