@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="AbstractPolygon.cs" />
     <Compile Include="ConcretePolygon.cs" />
+    <Compile Include="IFile.cs" />
     <Compile Include="IPolygon.cs" />
     <Compile Include="OctagonClass.cs" />
     <Compile Include="Program.cs" />

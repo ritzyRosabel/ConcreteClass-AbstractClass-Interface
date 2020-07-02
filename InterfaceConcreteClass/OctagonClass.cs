@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace InterfaceConcreteClass
 {
-    public class OctagonClass : IPolygon
+    public class OctagonClass : IPolygon,IFile
     {
         // when implementing an interface you implement all its abstract method and propertie
         // use public access modifiers on the imlemented methods and properties
@@ -24,13 +24,18 @@ namespace InterfaceConcreteClass
         {
             return 8 * LengthOfPolygon ;
         }
-        double IPolygon.GetArea()
+         double IPolygon.GetArea()
         {
             return  2 * (1 + Math.Sqrt(2)) *( LengthOfPolygon * LengthOfPolygon);
         }
         public void Search(string text)
         {
             Console.WriteLine("Searching in file");
+        }
+
+        public void GetArea()
+        {
+            Console.WriteLine("hello");
         }
     }
 }
