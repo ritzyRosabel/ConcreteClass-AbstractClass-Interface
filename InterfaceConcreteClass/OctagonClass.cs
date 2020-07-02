@@ -12,6 +12,7 @@ namespace InterfaceConcreteClass
         // use public access modifiers on the imlemented methods and properties
         //you can also explicitly implement an interface methods by using this syntax <Interface Name>.<Method Name>
         // when explicitly implementing interface method do not make use of the public modifier
+       
         public int SidesOfPolygon { get; set; }
         public int LengthOfPolygon { get; set; }
         public OctagonClass(int side, int length)

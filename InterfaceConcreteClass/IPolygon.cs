@@ -8,6 +8,9 @@ namespace InterfaceConcreteClass
 {
     public interface IPolygon
     {
+        //interface doesnt contain  fields and variables
+        // they cn have propertie, methods, indexers and events
+        // do not put access modifiers when decllaring members for interface
         int SidesOfPolygon { get; set; }
         int LengthOfPolygon { get; set; }
 
