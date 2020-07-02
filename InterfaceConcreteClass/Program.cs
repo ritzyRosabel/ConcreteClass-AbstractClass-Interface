@@ -24,10 +24,12 @@ namespace InterfaceConcreteClass
             
             IPolygon octagon1  = new OctagonClass(8, 7);// this object can only access implicitly and explicitly implemented members of the interface
             Display("Octagon", octagon1);
-            
-           
-            
-            
+
+            IFile octagon2 = new OctagonClass(8, 7);// this object can only access implicitly and explicitly implemented members of the interface
+            Display("Octagon", octagon1);
+            Console.ReadLine();
+
+
 
         }
 
